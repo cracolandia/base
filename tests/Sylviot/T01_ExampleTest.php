@@ -4,7 +4,7 @@ use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
-class Sylvio_ExampleTest extends TestCase
+class T01_ExampleTest extends TestCase
 {
     /*
         Teste simples para introdução ao mundo dos Testes,
