@@ -19,7 +19,7 @@ class T02 extends TestCase
         $this->assertEquals(3, Helpers::reduce([1,2]));
     }
 
-    /** * @expectedException Error */
+    /** * @expectedException Exception */
     public function testException(){
         Helpers::reduce([1,2, 'a']);
     }
