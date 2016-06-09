@@ -1,7 +1,5 @@
 <?php
-
 namespace App;
-
 class Helpers{
 	/*	
 		Receba um array de inteiros e some-os.
@@ -10,11 +8,9 @@ class Helpers{
 		$total = 0;
 		foreach($input as $i){
 			if(!is_numeric($i)) 
-				throw new Exception("NaN", 1);
-
+				throw new \Exception("NaN", 1);
 			$total += $i;
 		}
-
 		return $total;
 	}
 }
