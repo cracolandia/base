@@ -2,7 +2,7 @@
 
 use App\Helpers;
 
-class T02 extends TestCase
+class T02_SylvioT extends TestCase
 {
     public function reduceProvider(){
         return 
